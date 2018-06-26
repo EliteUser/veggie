@@ -1,0 +1,6 @@
+mixin special(specialImg, specialTitle, specialDescr, specialPrice)
+  img(src=specialImg, alt=specialTitle, width=248, height=248).special__image
+  .special__box
+    h3.special__title= specialTitle
+    p.special__description= specialDescr
+    b.special__price!= specialPrice
