@@ -1,0 +1,12 @@
+mixin feature(featureName, featureText)
+  h3.feature__name= featureName
+  p.feature__description= featureText
+
+section.feature
+  h2.visually-hidden Our features
+  ul.feature__list
+    li.feature__item: +feature("Turnip greens", "Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.")
+    li.feature__item: +feature("Beetroot water", "Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.")
+    li.feature__item: +feature("Get social", "Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.")
+|
+|
