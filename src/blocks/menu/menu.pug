@@ -3,30 +3,26 @@ include ../product/product
 section.menu
   h2.menu__title.page-heading Menu
   ul.menu__tablist
-    li.menu__tab
-      button.menu__button.menu__button--active Starters
-      .menu__inner
-        ul.menu__list
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "12&dollar;")
-          li.menu__item: +product("Samphire fritters with fennel ceviche", "fresh samphire, plain flour, cornflower, eggs, fennel", "19&dollar;")
-          li.menu__item: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "13&dollar;")
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
-          li.menu__item: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "12&dollar;")
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "16&dollar;")
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
-        ul.menu__list
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "12&dollar;")
-          li.menu__item: +product("Samphire fritters with fennel ceviche", "fresh samphire, plain flour, cornflower, eggs, fennel", "19&dollar;")
-          li.menu__item: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "13&dollar;")
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
-          li.menu__item: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "12&dollar;")
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "16&dollar;")
-          li.menu__item: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
-    li.menu__tab
-      button.menu__button Main Dishes
+    li: button.menu__button.menu__button--active Starters
+    li: button.menu__button Main Dishes
+    li: button.menu__button Desserts
+    li: button.menu__button Drinks
 
+  ul.menu__inner
     li.menu__tab
-      button.menu__button Desserts
-
-    li.menu__tab
-      button.menu__button Drinks
+      ul.menu__list
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "12&dollar;")
+        li.menu__item.product: +product("Samphire fritters with fennel ceviche", "fresh samphire, plain flour, cornflower, eggs, fennel", "19&dollar;")
+        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "13&dollar;")
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
+        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "12&dollar;")
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "16&dollar;")
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
+      ul.menu__list
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "12&dollar;")
+        li.menu__item.product: +product("Samphire fritters with fennel ceviche", "fresh samphire, plain flour, cornflower, eggs, fennel", "19&dollar;")
+        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "13&dollar;")
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
+        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "12&dollar;")
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "16&dollar;")
+        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")

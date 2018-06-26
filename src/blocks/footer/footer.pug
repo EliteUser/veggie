@@ -1,0 +1,26 @@
+footer.page-footer
+  h2.page-footer__title.page-heading Contact
+  .page-footer__wrapper
+    p.page-footer__contacts
+      h3.page-footer__subtitle Veggie
+      address 3428 Magnolia Avenue<br>Hackettstown, NJ 07840
+    p.page-footer__contacts
+      h3.page-footer__subtitle Reservations
+      a.page-footer__link(href="mailto:reservations@vegggie.com") reservations@veggie.com
+      a.page-footer__link(href="tel:+48 202-555-0114") +48 202-555-0114
+
+  form.page-footer__form(action="get")
+    h3.page-footer__subtitle Contact form
+    p.page-footer__box
+      label.visually-hidden(for="user-name") Your name
+      input.page-footer__input.input(type="text", id="user-name", placeholder="Name")
+    p.page-footer__box
+      label.visually-hidden(for="user-email") Your email
+      input.page-footer__input.input(type="email", id="user-email", placeholder="Email")
+    p.page-footer__box
+      label.visually-hidden(for="user-message") Your message
+      input.page-footer__input.input.input--wide(type="text" id="user-message" placeholder="Message")
+
+    button.page-footer__submit(type="submit") Send
+
+  include ../social/social
