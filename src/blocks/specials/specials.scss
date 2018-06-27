@@ -1,0 +1,23 @@
+.specials {
+  text-align: center;
+  padding-bottom: 104px;
+}
+
+.specials__title {
+  margin-bottom: 107px;
+
+  &::before {
+    top: calc(100% + 17px);
+  }
+}
+
+.specials__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
