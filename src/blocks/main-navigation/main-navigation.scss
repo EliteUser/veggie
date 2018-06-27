@@ -17,11 +17,11 @@
   line-height: 20px;
   color: $text;
 
-  &:hover {
+  &[href]:hover {
     opacity: 0.6;
   }
 
-  &:active {
+  &[href]:active {
     box-shadow: 0 0 0 1px $border;
   }
 }
