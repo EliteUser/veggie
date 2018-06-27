@@ -1,0 +1,31 @@
+.main-navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation__item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.main-navigation__link {
+  display: block;
+  padding: 14px 23px;
+  font-size: 18px;
+  line-height: 20px;
+  color: $text;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    box-shadow: 0 0 0 1px $border;
+  }
+}
+
+.main-navigation__link--active {
+  box-shadow: 0 0 0 1px $border;
+}
