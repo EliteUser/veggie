@@ -1,0 +1,30 @@
+.input {
+  width: 254px;
+  padding: 10px 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-style: italic;
+  color: $text;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom: 1px solid $text;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    border: 1px solid $text;
+    outline: none;
+  }
+
+  &::placeholder {
+    font: inherit;
+    color: $text;
+    opacity: 0.3;
+  }
+}
+
+.input--wide {
+  width: 570px;
+}
