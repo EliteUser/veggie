@@ -1,0 +1,48 @@
+.page-header {
+  padding-top: 54px;
+  width: 100%;
+  min-height: 965px;
+  background: $lightgrey-bg url("../img/header-bg.jpg") no-repeat center top;
+}
+
+.page-header__main-navigation {
+  display: flex;
+  justify-content: flex-end;
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: 8%;
+}
+
+.page-header__title {
+  float: right;
+  margin: 15.2% 11.8% 0 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .page-header {
+    min-height: 700px;
+  }
+
+  .page-header__main-navigation {
+    margin-right: 3%;
+  }
+
+  .page-header__title {
+    margin: 10%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .page-header {
+    min-height: 500px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-image: none;
+  }
+
+  .page-header__title {
+    margin: 5%;
+    float: none;
+    font-size: 32px;
+  }
+}

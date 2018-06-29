@@ -3,7 +3,7 @@ include ../product/product
 section.menu
   h2.menu__title.page-heading(id="menu") Menu
   ul.menu__tablist
-    li: a.menu__button.menu__button--active Starters
+    li: a.menu__button.menu__button--active(href="#") Starters
     li: a.menu__button(href="#") Main Dishes
     li: a.menu__button(href="#") Desserts
     li: a.menu__button(href="#") Drinks
@@ -11,21 +11,38 @@ section.menu
   ul.menu__inner
     li.menu__tab.menu__tab--active
       ul.menu__list
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "12&dollar;")
-        li.menu__item.product: +product("Samphire fritters with fennel ceviche", "fresh samphire, plain flour, cornflower, eggs, fennel", "19&dollar;")
-        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "13&dollar;")
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
-        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "12&dollar;")
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "16&dollar;")
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
+        li.menu__item.product: +product(menu[0].productName, menu[0].productIngredients, menu[0].productPrice)
+        li.menu__item.product: +product(menu[1].productName, menu[1].productIngredients, menu[1].productPrice)
+        li.menu__item.product: +product(menu[2].productName, menu[2].productIngredients, menu[2].productPrice)
+        li.menu__item.product: +product(menu[3].productName, menu[3].productIngredients, menu[3].productPrice)
+        li.menu__item.product: +product(menu[4].productName, menu[4].productIngredients, menu[4].productPrice)
+        li.menu__item.product: +product(menu[5].productName, menu[5].productIngredients, menu[5].productPrice)
+        li.menu__item.product: +product(menu[6].productName, menu[6].productIngredients, menu[6].productPrice)
       ul.menu__list
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "12&dollar;")
-        li.menu__item.product: +product("Samphire fritters with fennel ceviche", "fresh samphire, plain flour, cornflower, eggs, fennel", "19&dollar;")
-        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "13&dollar;")
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
-        li.menu__item.product: +product("Pan fried courgette flowers", "courgette flowers, goats cheese, red onion, pine nuts", "12&dollar;")
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "16&dollar;")
-        li.menu__item.product: +product("Smoked ricotta terrine", "ricotta, shallots, cheddar, capers", "17&dollar;")
+        li.menu__item.product: +product(menu[0].productName, menu[0].productIngredients, menu[0].productPrice)
+        li.menu__item.product: +product(menu[1].productName, menu[1].productIngredients, menu[1].productPrice)
+        li.menu__item.product: +product(menu[2].productName, menu[2].productIngredients, menu[2].productPrice)
+        li.menu__item.product: +product(menu[3].productName, menu[3].productIngredients, menu[3].productPrice)
+        li.menu__item.product: +product(menu[4].productName, menu[4].productIngredients, menu[4].productPrice)
+        li.menu__item.product: +product(menu[5].productName, menu[5].productIngredients, menu[5].productPrice)
+        li.menu__item.product: +product(menu[6].productName, menu[6].productIngredients, menu[6].productPrice)
     li.menu__tab
+      ul.menu__list
+        li.menu__item.product: +product(menu[0].productName, menu[0].productIngredients, menu[0].productPrice)
+        li.menu__item.product: +product(menu[1].productName, menu[1].productIngredients, menu[1].productPrice)
+        li.menu__item.product: +product(menu[2].productName, menu[2].productIngredients, menu[2].productPrice)
+        li.menu__item.product: +product(menu[3].productName, menu[3].productIngredients, menu[3].productPrice)
+        li.menu__item.product: +product(menu[4].productName, menu[4].productIngredients, menu[4].productPrice)
+        li.menu__item.product: +product(menu[5].productName, menu[5].productIngredients, menu[5].productPrice)
+        li.menu__item.product: +product(menu[6].productName, menu[6].productIngredients, menu[6].productPrice)
+    li.menu__tab
+      ul.menu__list
+        li.menu__item.product: +product(menu[0].productName, menu[0].productIngredients, menu[0].productPrice)
+        li.menu__item.product: +product(menu[1].productName, menu[1].productIngredients, menu[1].productPrice)
+        li.menu__item.product: +product(menu[2].productName, menu[2].productIngredients, menu[2].productPrice)
+    li.menu__tab
+      ul.menu__list
+        li.menu__item.product: +product(menu[0].productName, menu[0].productIngredients, menu[0].productPrice)
+        li.menu__item.product: +product(menu[1].productName, menu[1].productIngredients, menu[1].productPrice)
 |
 |

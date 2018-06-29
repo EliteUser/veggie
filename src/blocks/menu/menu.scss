@@ -30,12 +30,14 @@
   font-size: 18px;
   line-height: 20px;
   color: $text;
+  cursor: auto;
 
-  &[href]:hover {
+  &:not(.menu__button--active):hover {
     opacity: 0.6;
+    cursor: pointer;
   }
 
-  &[href]:active {
+  &:not(.menu__button--active):active {
     box-shadow: 0 0 0 1px $border;
   }
 }
@@ -46,11 +48,15 @@
 
 .menu__inner {
   margin: 0;
-  padding: 81px 95px 0;
+  padding: 81px 5% 0;
   list-style: none;
 }
 
 .menu__tab {
+  display: none;
+}
+
+.menu__tab--active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

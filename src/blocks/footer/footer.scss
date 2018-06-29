@@ -4,8 +4,8 @@
   align-items: flex-end;
   padding: 61px 10.7% 34px;
   width: 100%;
-  height: 965px;
-  background: $grey-bg url("../img/footer-bg.jpg") no-repeat center;
+  min-height: 965px;
+  background: $grey-bg url("../img/footer-bg.jpg") no-repeat top center;
 }
 
 .page-footer__container {
