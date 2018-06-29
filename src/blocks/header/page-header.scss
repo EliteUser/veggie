@@ -34,6 +34,7 @@
 
 @media screen and (max-width: 900px) {
   .page-header {
+    padding-top: 20px;
     min-height: 500px;
     padding-bottom: 60px;
     text-align: center;
@@ -43,6 +44,5 @@
   .page-header__title {
     margin: 5%;
     float: none;
-    font-size: 32px;
   }
 }

@@ -65,3 +65,13 @@
 .special--reverse .special__image {
   order: 1;
 }
+
+@media screen and (max-width: 900px) {
+  .special {
+    flex-direction: column;
+  }
+
+  .special--reverse .special__image {
+    order: 0;
+  }
+}

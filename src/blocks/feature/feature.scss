@@ -6,22 +6,18 @@
 
 .feature__list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0 20px;
+  padding: 0 10%;
   list-style: none;
 }
 
 .feature__item {
-  width: 380px;
+  width: 400px;
   margin-bottom: 20px;
-  padding-top: 117px;
+  padding: 117px 10px 0;
   text-align: center;
-
-  &:not(:last-child) {
-    margin-right: 9.5%
-  }
 
   &:nth-child(1) {
     background: url("../img/feature-1.png") no-repeat center 7px;
