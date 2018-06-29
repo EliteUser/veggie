@@ -16,7 +16,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0;
-  padding: 0;
+  padding: 0 20px;
   list-style: none;
 
   li:not(:last-child) {
@@ -71,4 +71,21 @@
 
 .menu__item {
   margin-bottom: 38px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu__tablist {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu__tablist li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .menu__inner {
+    padding-top: 40px;
+    text-align: center;
+  }
 }
