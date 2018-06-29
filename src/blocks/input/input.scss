@@ -28,3 +28,10 @@
 .input--wide {
   width: 570px;
 }
+
+@media screen and (max-width: 768px) {
+  .input,
+  .input--wide {
+    width: 100%;
+  }
+}
