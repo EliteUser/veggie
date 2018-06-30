@@ -24,6 +24,7 @@
 
 .about__description {
   margin: 0 0 45px;
+  max-width: 620px;
   font-size: 30px;
   line-height: 54px;
   font-weight: 300;
@@ -54,6 +55,7 @@
   }
 
   .about__description {
+    max-width: 100%;
     font-size: 18px;
   }
 
