@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Veggie</title>
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div hidden><svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-fb" viewBox="0 0 96 96">
+        <path d="M72.089.02L59.624 0C45.62 0 36.57 9.285 36.57 23.656v10.907H24.037a1.96 1.96 0 0 0-1.96 1.961v15.803a1.96 1.96 0 0 0 1.96 1.96H36.57v39.876a1.96 1.96 0 0 0 1.96 1.96h16.352a1.96 1.96 0 0 0 1.96-1.96V54.287h14.654a1.96 1.96 0 0 0 1.96-1.96l.006-15.803a1.963 1.963 0 0 0-1.961-1.961H56.842v-9.246c0-4.444 1.059-6.7 6.848-6.7l8.397-.003a1.96 1.96 0 0 0 1.959-1.96V1.98A1.96 1.96 0 0 0 72.089.02z" />
+      </symbol>
+      <symbol id="icon-in" viewBox="0 0 48 48">
+        <path d="M5.583 13a1 1 0 0 1-1-1V3a1 1 0 1 1 2 0v9a1 1 0 0 1-1 1zm3.375 0a1 1 0 0 1-1-1V2.25a1 1 0 1 1 2 0V12a1 1 0 0 1-1 1zm3.375 0a1 1 0 0 1-1-1V2.25a1 1 0 1 1 2 0V12a1 1 0 0 1-1 1z" />
+        <path d="M37.292 48H11.917C4.344 48 0 44.014 0 37.062V12.125C0 4.873 4.27 0 10.625 0h27.584C42.918 0 48 4.524 48 11.834v25.083C48 43.132 43.297 48 37.292 48zM10.625 2C4.259 2 2 7.454 2 12.125v24.938C2 44.449 7.393 46 11.917 46h25.375C42.257 46 46 42.095 46 36.917V11.834C46 5.76 41.956 2 38.209 2H10.625z" />
+        <path d="M23.999 15.25a7.667 7.667 0 1 0 0 15.334 7.667 7.667 0 0 0 0-15.334zm0 11.5a3.834 3.834 0 1 1 0-7.667 3.834 3.834 0 0 1 0 7.667z" />
+        <path d="M23.999 35.084c-6.709 0-12.167-5.458-12.167-12.167S17.29 10.75 23.999 10.75s12.167 5.458 12.167 12.167-5.458 12.167-12.167 12.167zm0-22.334c-5.606 0-10.167 4.561-10.167 10.167s4.561 10.167 10.167 10.167 10.167-4.561 10.167-10.167S29.605 12.75 23.999 12.75z" />
+        <path d="M32.999 14.92h14v2.16h-14zm-31.5.029h13.25v2.102H1.499zm39.834-4.816a2.201 2.201 0 0 1-2.202 2.201h-3.264a2.201 2.201 0 0 1-2.202-2.201V6.867c0-1.215.985-2.201 2.202-2.201h3.264c1.217 0 2.202.986 2.202 2.201v3.266z" />
+      </symbol>
+    </svg></div>
+
+  <div class="container">
+    <header class="page-header">
+      <nav class="main-navigation page-header__main-navigation">
+        <button class="main-navigation__button" aria-label="Navigation"></button>
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item"><a class="main-navigation__link main-navigation__link--active">Home</a></li>
+          <li class="main-navigation__item"><a class="main-navigation__link" href="#specials">Specials</a></li>
+          <li class="main-navigation__item"><a class="main-navigation__link" href="#about">About</a></li>
+          <li class="main-navigation__item"><a class="main-navigation__link" href="#menu">Menu</a></li>
+          <li class="main-navigation__item"><a class="main-navigation__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h1 class="page-heading page-header__title">Veggies es bonus vobis,<br> proinde vos postulo essum.</h1>
+    </header>
+  </div>
+
+  <main class="container">
+    <section class="feature">
+      <h2 class="visually-hidden">Our features</h2>
+      <ul class="feature__list">
+        <li class="feature__item">
+          <h3 class="feature__name">Turnip greens</h3>
+          <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
+        </li>
+        <li class="feature__item">
+          <h3 class="feature__name">Beetroot water</h3>
+          <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
+        </li>
+        <li class="feature__item">
+          <h3 class="feature__name">Get social</h3>
+          <p class="feature__description">Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="specials">
+      <h2 class="specials__title page-heading" id="specials">This month specials</h2>
+      <ul class="specials__list">
+        <li class="specials__item special"><img class="special__image" src="img/special-1.jpg" alt="Greens fava" width="248" height="248">
+          <div class="special__box"><a class="special__link" href="#">
+              <h3 class="special__title">Greens fava</h3>
+            </a>
+            <p class="special__description">Lorem ipsum dolor sit Pellentesque vel enim a</p><b class="special__price">17&dollar;</b>
+          </div>
+        </li>
+        <li class="specials__item special"><img class="special__image" src="img/special-2.jpg" alt="Celery quandong" width="248" height="248">
+          <div class="special__box"><a class="special__link" href="#">
+              <h3 class="special__title">Celery quandong</h3>
+            </a>
+            <p class="special__description">Lorem ipsum dolor sit Pellentesque vel enim a</p><b class="special__price">30&dollar;</b>
+          </div>
+        </li>
+        <li class="specials__item special"><img class="special__image" src="img/special-3.jpg" alt="Pea horseradish" width="248" height="248">
+          <div class="special__box"><a class="special__link" href="#">
+              <h3 class="special__title">Pea horseradish</h3>
+            </a>
+            <p class="special__description">Lorem ipsum dolor sit Pellentesque vel enim a</p><b class="special__price">25&dollar;</b>
+          </div>
+        </li>
+        <li class="specials__item special special--reverse"><img class="special__image" src="img/special-4.jpg" alt="Soko radicchio" width="248" height="248">
+          <div class="special__box"><a class="special__link" href="#">
+              <h3 class="special__title">Soko radicchio</h3>
+            </a>
+            <p class="special__description">Lorem ipsum dolor sit Pellentesque vel enim a</p><b class="special__price">7&dollar;</b>
+          </div>
+        </li>
+        <li class="specials__item special special--reverse"><img class="special__image" src="img/special-5.jpg" alt="Tigernut" width="248" height="248">
+          <div class="special__box"><a class="special__link" href="#">
+              <h3 class="special__title">Tigernut</h3>
+            </a>
+            <p class="special__description">Lorem ipsum dolor sit Pellentesque vel enim a</p><b class="special__price">3&dollar;</b>
+          </div>
+        </li>
+        <li class="specials__item special special--reverse"><img class="special__image" src="img/special-6.jpg" alt="Yarrow sweet" width="248" height="248">
+          <div class="special__box"><a class="special__link" href="#">
+              <h3 class="special__title">Yarrow sweet</h3>
+            </a>
+            <p class="special__description">Lorem ipsum dolor sit Pellentesque vel enim a</p><b class="special__price">5&dollar;</b>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <div class="about__box">
+        <h2 class="about__title page-heading" id="about">About us</h2>
+        <p class="about__description">Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p><img class="about__sign" src="img/signature.png" width="213" height="144" alt="Sign Author">
+      </div>
+    </section>
+
+    <section class="menu">
+      <h2 class="menu__title page-heading" id="menu">Menu</h2>
+      <ul class="menu__tablist">
+        <li><a class="menu__button menu__button--active" href="#">Starters</a></li>
+        <li><a class="menu__button" href="#">Main Dishes</a></li>
+        <li><a class="menu__button" href="#">Desserts</a></li>
+        <li><a class="menu__button" href="#">Drinks</a></li>
+      </ul>
+      <ul class="menu__inner">
+        <li class="menu__tab menu__tab--active">
+          <ul class="menu__list">
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Samphire fritters with fennel ceviche</h3>
+              <p class="product__description">fresh samphire, plain flour, cornflower, eggs, fennel</p><b class="product__price">19&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">13&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">17&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">16&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">17&dollar;</b>
+            </li>
+          </ul>
+          <ul class="menu__list">
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Samphire fritters with fennel ceviche</h3>
+              <p class="product__description">fresh samphire, plain flour, cornflower, eggs, fennel</p><b class="product__price">19&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">13&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">17&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">16&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">17&dollar;</b>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__tab">
+          <ul class="menu__list">
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Samphire fritters with fennel ceviche</h3>
+              <p class="product__description">fresh samphire, plain flour, cornflower, eggs, fennel</p><b class="product__price">19&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">13&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">17&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">16&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">17&dollar;</b>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__tab">
+          <ul class="menu__list">
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Samphire fritters with fennel ceviche</h3>
+              <p class="product__description">fresh samphire, plain flour, cornflower, eggs, fennel</p><b class="product__price">19&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Pan fried courgette flowers</h3>
+              <p class="product__description">courgette flowers, goats cheese, red onion, pine nuts</p><b class="product__price">13&dollar;</b>
+            </li>
+          </ul>
+        </li>
+        <li class="menu__tab">
+          <ul class="menu__list">
+            <li class="menu__item product">
+              <h3 class="product__name">Smoked ricotta terrine</h3>
+              <p class="product__description">ricotta, shallots, cheddar, capers</p><b class="product__price">12&dollar;</b>
+            </li>
+            <li class="menu__item product">
+              <h3 class="product__name">Samphire fritters with fennel ceviche</h3>
+              <p class="product__description">fresh samphire, plain flour, cornflower, eggs, fennel</p><b class="product__price">19&dollar;</b>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+  <div class="container">
+    <footer class="page-footer">
+      <div class="page-footer__container">
+        <h2 class="page-footer__title page-heading" id="contact">Contact</h2>
+        <div class="page-footer__wrapper">
+          <div class="page-footer__contacts">
+            <h3 class="page-footer__subtitle">Veggie</h3>
+            <address class="page-footer__address">3428 Magnolia Avenue<br>Hackettstown, NJ 07840</address>
+          </div>
+          <div class="page-footer__contacts">
+            <h3 class="page-footer__subtitle">Reservations</h3><a class="page-footer__link" href="mailto:reservations@vegggie.com">reservations@veggie.com</a><a class="page-footer__link" href="tel:+482025550114">+48 202-555-0114</a>
+          </div>
+        </div>
+        <h3 class="page-footer__subtitle">Contact form</h3>
+        <form class="page-footer__form" action="#" method="get">
+          <p class="page-footer__box">
+            <label class="visually-hidden" for="user-name">Your name</label>
+            <input class="page-footer__input input" type="text" id="user-name" placeholder="Name">
+          </p>
+          <p class="page-footer__box">
+            <label class="visually-hidden" for="user-email">Your email</label>
+            <input class="page-footer__input input" type="email" id="user-email" placeholder="Email">
+          </p>
+          <p class="page-footer__box">
+            <label class="visually-hidden" for="user-message">Your message</label>
+            <input class="page-footer__input input input--wide" type="text" id="user-message" placeholder="Message">
+          </p>
+          <button class="page-footer__submit" type="submit">Send</button>
+        </form>
+      </div>
+      <h3 class="visually-hidden">Our social</h3>
+      <ul class="social">
+        <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Facebook</span>
+            <svg class="social__icon" width="23" height="23">
+              <use xlink:href="#icon-fb"></use>
+            </svg></a></li>
+        <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Instagram</span>
+            <svg class="social__icon" width="25" height="26">
+              <use xlink:href="#icon-in"></use>
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
